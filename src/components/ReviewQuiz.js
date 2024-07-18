@@ -79,8 +79,8 @@ class Review extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="fccLink"
-                href="http://freecodecamp.com/">
-                <img src="/assets/freeCodeCamp.png" alt="freeCodeCamp Logo" />
+                href="https://mcq-kappa.vercel.app/">
+                <img src="/assets/logo.png" alt="Logo" />
               </a>
               <span>{quiz.get('title')}</span>
             </div>

@@ -12,15 +12,15 @@ const renderHeader = (isDesktop) => (
 			target="_blank"
 			rel="noopener noreferrer"
 			className="fccLink"
-			href="http://freecodecamp.com/">
-			<img src="/assets/freeCodeCamp.png" alt="freeCodeCamp Logo" />
+			href="https://mcq-kappa.vercel.app/">
+			<img src="/assets/logo.png" alt="Logo" />
 		</a>
-		<span>Interview Preparation</span>
+		<span>Exam Preparation</span>
 			{isDesktop && <a
 				target="_blank"
 				rel="noopener noreferrer"
 				className="contributeLink"
-				href="https://github.com/freeCodeCamp/multiple-choice-questions">
+				href="https://github.com/PasanSWijekoon/MCQ">
 				Contribute <i className='fa fa-github'></i>
 		</a>}
 	</div>

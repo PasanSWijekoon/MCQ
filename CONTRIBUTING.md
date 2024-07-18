@@ -4,7 +4,7 @@
 - **1) The challenge content should be very high quality.**
 - **2) The challenges should cover topics that are commonly encountered in software engineering interviews.**
 
-If anyone wants to contribute new material please be sure to have approval or reach out for approval from someone on the freeCodeCamp core team, or open an issue here and indicate you want to contribute. This is just to keep contributions organized. Thank you! If you want to contribute, read on.
+If anyone wants to contribute new material please be sure to have approval or reach out for approval admin, or open an issue here and indicate you want to contribute. This is just to keep contributions organized. Thank you! If you want to contribute, read on.
 
 If you're here to report a bug or problem, or have a question, please open an issue.
 
@@ -14,7 +14,7 @@ If you're here to report a bug or problem, or have a question, please open an is
 
 This project is a React application which serves all of the challenges from the `src/challenges` directory. There are 8 JavaScript files that contain the content for 8 categories, and an `index` file which exports all of this for the app to consume. If you are just modifying a question or adding a new one, you should only need to modify one of these 8 files.
 
-To get the app running simply fork the repo to your machine and run `npm install` and then `npm start`. The app should then be running locally and should live-update for you. To contribute, try to follow the same guidelines which direct contributions to the core freeCodeCamp repository. See [here](https://github.com/freeCodeCamp/freeCodeCamp/blob/staging/CONTRIBUTING.md) or [here](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md) for more details.
+To get the app running simply fork the repo to your machine and run `npm install` and then `npm start`. The app should then be running locally and should live-update for you. To contribute, try to follow the same guidelines which direct contributions to repository. 
 
 ***
 

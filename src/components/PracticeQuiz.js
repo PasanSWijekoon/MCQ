@@ -179,8 +179,8 @@ export default class Quiz extends React.Component {
 									target="_blank"
 									rel="noopener noreferrer"
 									className="fccLink"
-									href="http://freecodecamp.com/">
-									<img src="/assets/freeCodeCamp.png" alt="freeCodeCamp Logo" />
+									href="https://mcq-kappa.vercel.app/">
+                <img src="/assets/logo.png" alt="Logo" />
 								</a>
 								<span>{quiz.get('title')}</span>
 							</div>
@@ -284,14 +284,7 @@ export default class Quiz extends React.Component {
 							<Link className='finishBtn' to='/' onClick={() => this.props.finishQuiz()}>
 								<button>Return to Quiz Page</button>
 							</Link>
-							<button className='fbShare'>
-								<a
-									target="_blank"
-									rel="noopener noreferrer"
-									href="https://www.facebook.com/sharer/sharer.php?u=http://fcc-quiz.surge.sh/">
-									Share on Facebook
-								</a>
-							</button>
+							
 						</div>}
 
 						{!isMobile && <div id='infoBox'>
