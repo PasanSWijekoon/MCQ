@@ -1,8 +1,8 @@
-# How to Contribute to this Interview Curriculum
+# How to Contribute to this Exam Curriculum
 
 **The primary objective of these challenges is twofold:**
 - **1) The challenge content should be very high quality.**
-- **2) The challenges should cover topics that are commonly encountered in software engineering interviews.**
+- **2) The challenges should cover topics that are commonly encountered in Object Oriented Programming.**
 
 If anyone wants to contribute new material please be sure to have approval or reach out for approval admin, or open an issue here and indicate you want to contribute. This is just to keep contributions organized. Thank you! If you want to contribute, read on.
 
@@ -12,7 +12,7 @@ If you're here to report a bug or problem, or have a question, please open an is
 
 ### Overview:
 
-This project is a React application which serves all of the challenges from the `src/challenges` directory. There are 8 JavaScript files that contain the content for 8 categories, and an `index` file which exports all of this for the app to consume. If you are just modifying a question or adding a new one, you should only need to modify one of these 8 files.
+This project is a React application which serves all of the challenges from the `src/challenges` directory. There areJavaScript files that contain the content for categories, and an `index` file which exports all of this for the app to consume. If you are just modifying a question or adding a new one, you should copy format of that js file.
 
 To get the app running simply fork the repo to your machine and run `npm install` and then `npm start`. The app should then be running locally and should live-update for you. To contribute, try to follow the same guidelines which direct contributions to repository. 
 
@@ -20,7 +20,7 @@ To get the app running simply fork the repo to your machine and run `npm install
 
 ### Details:
 
-**Take a look at any of the category files, e.g. `01_javascript.js`, to see how the challenge seed content is organized. It should be pretty self-explanatory, but we'll provide an overview here.**
+**Take a look at any of the category files, e.g. `01_paper1.js`, to see how the challenge seed content is organized. It should be pretty self-explanatory, but we'll provide an overview here.**
 
 First is an area to add any custom code snippets you're going to include in a challenge. We've isolated these into separate variables to avoid weird formatting and indentation issues, and we are bracketing them with `start` and `end` variables which contain the HTML `pre` and `code` tags necessary to display the snippets correctly. Currently, there are no naming requirements for these variables (do your best). After creating snippets you can just reference them inline in the challenge content below. You should be able to see how to do this by looking at the existing questions which include code snippets.
 
