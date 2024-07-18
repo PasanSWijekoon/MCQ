@@ -6,8 +6,8 @@
  */
 
 
-import paper1 from './01_paper1';
-import paper2 from './02_paper2';
+import paper1 from './01_overloading.js';
+import paper2 from './02_paper1';
 
 const challenges = [
 	paper1,
