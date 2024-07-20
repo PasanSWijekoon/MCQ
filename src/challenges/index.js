@@ -15,7 +15,11 @@ import paper6 from './06_Polymorphism.js';
 import paper7 from './07_Polymorphism1.js';
 import paper8 from './08_Polymorphism2.js';
 import paper9 from './09_Encapsulation.js';
-
+import paper10 from  './10_Abstractclass.js';
+import paper11 from './11_Interface.js';
+import paper12 from './12_Access_Modifiers.js';
+import paper13 from './13_Constructor.js';
+ 
 const challenges = [
 	paper1,
 	paper2,
@@ -25,7 +29,11 @@ const challenges = [
 	paper6,
 	paper7,
 	paper8,
-	paper9
+	paper9,
+	paper10,
+	paper11,
+	paper12,
+	paper13
 ];
 
 /* This doesn't cover everything but serves as a basic verification that
