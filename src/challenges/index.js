@@ -8,10 +8,24 @@
 
 import paper1 from './01_overloading.js';
 import paper2 from './02_paper1';
+import paper3 from './03_Variables.js';
+import paper4 from './04_Inheritance.js';
+import paper5 from './05_overiding.js';
+import paper6 from './06_Polymorphism.js';
+import paper7 from './07_Polymorphism1.js';
+import paper8 from './08_Polymorphism2.js';
+import paper9 from './09_Encapsulation.js';
 
 const challenges = [
 	paper1,
-	paper2
+	paper2,
+	paper3,
+	paper4,
+	paper5,
+	paper6,
+	paper7,
+	paper8,
+	paper9
 ];
 
 /* This doesn't cover everything but serves as a basic verification that
