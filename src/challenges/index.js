@@ -19,7 +19,12 @@ import paper10 from  './10_Abstractclass.js';
 import paper11 from './11_Interface.js';
 import paper12 from './12_Access_Modifiers.js';
 import paper13 from './13_Constructor.js';
- 
+import paper14 from './14_Garbage Collection.js';
+import paper15 from './15_Finalize.js';
+import paper16 from './16_Arrays.js';
+import paper17 from './17_Casting.js';
+
+  
 const challenges = [
 	paper1,
 	paper2,
@@ -33,7 +38,11 @@ const challenges = [
 	paper10,
 	paper11,
 	paper12,
-	paper13
+	paper13,
+	paper14,
+	paper15,
+	paper16,
+	paper17
 ];
 
 /* This doesn't cover everything but serves as a basic verification that
