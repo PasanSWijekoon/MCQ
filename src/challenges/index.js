@@ -27,7 +27,7 @@ import paper17 from './17_Casting.js';
   
 const challenges = [
 	paper1,
-	paper2,
+	
 	paper3,
 	paper4,
 	paper5,
@@ -42,7 +42,8 @@ const challenges = [
 	paper14,
 	paper15,
 	paper16,
-	paper17
+	paper17,
+	paper2
 ];
 
 /* This doesn't cover everything but serves as a basic verification that
