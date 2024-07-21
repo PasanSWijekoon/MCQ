@@ -11,7 +11,7 @@ export default {
         `int array[];`,
         `int array;`,
         `int array{};`,
-        `int[] array;`,
+        `int{} array;`,
       ],
       solution: `3`,
       explanation: `In Java, an array of integers can be declared using either int[] array; or int array[];. The recommended form is int[] array; as it clearly shows the type of elements.`,
