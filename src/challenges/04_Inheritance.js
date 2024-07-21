@@ -90,7 +90,7 @@ public class Test {
         `A class can extend multiple classes`,
         `A class can implement multiple interfaces`,
         `A class can contain multiple classes`,
-        `A class can override multiple methods`,
+        `A class can override private methods of its superclass`,
       ],
       solution: `1`,
       explanation: `In Java, a class can implement multiple interfaces but can only extend one class.`,
