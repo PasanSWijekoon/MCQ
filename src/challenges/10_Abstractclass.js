@@ -84,7 +84,7 @@ public class Test {
       explanation: `Yes, an abstract class can have a constructor. However, the constructor cannot be used to create instances of the abstract class directly.`,
     },
     {
-      title: `What happens if a subclass does not implement all abstract methods of its abstract superclass?`,
+      title: `What happens if a subclass does not implement all abstract methods of its abstract superclass? What Action Should Take?`,
       subtitle: `Subclass Implementation 6`,
       choices: [
         `It will compile without errors`,
