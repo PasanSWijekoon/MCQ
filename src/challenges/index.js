@@ -23,7 +23,7 @@ import paper14 from './14_Garbage Collection.js';
 import paper15 from './15_Finalize.js';
 import paper16 from './16_Arrays.js';
 import paper17 from './17_Casting.js';
-import paper18 from './18_Finalpaper.js';
+
 
   
 const challenges = [
