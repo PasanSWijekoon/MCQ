@@ -168,8 +168,8 @@ public class Test {
         `The method is hidden, not overridden`,
         `The method is overridden correctly`,
       ],
-      solution: `1`,
-      explanation: `A compilation error occurs if the return type of the overridden method in the subclass is different from the return type of the method in the superclass.`,
+      solution: `0`,
+      explanation: `A Runtime error occurs if the return type of the overridden method in the subclass is different from the return type of the method in the superclass.`,
     },
     {
       title: `What is the output of the following code? ${wrapSnippit(`

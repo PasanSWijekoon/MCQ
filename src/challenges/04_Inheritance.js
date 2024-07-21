@@ -17,7 +17,7 @@ export default {
       explanation: `The "is-a" relationship signifies that a class inherits from another class.`,
     },
     {
-      title: `What does "has-a" relationship signify in Java inheritance?`,
+      title: `What does "has-a" relationship signify in Java Relationships?`,
       subtitle: `Has-a Relationship 2`,
       choices: [
         `A class inherits from another class`,
