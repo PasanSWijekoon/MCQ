@@ -23,10 +23,10 @@ export default {
         `System.gc()`,
         `Runtime.gc()`,
         `Thread.gc()`,
-        `Both System.gc() and Runtime.gc()`,
+        `Both System.gc() and Runtime.getRuntime().gc()`,
       ],
       solution: `3`,
-      explanation: `Both System.gc() and Runtime.gc() methods can be used to suggest the JVM to run the garbage collector, though it is not guaranteed to run immediately.`,
+      explanation: `Both System.gc() and Runtime.getRuntime().gc() methods can be used to suggest the JVM to run the garbage collector, though it is not guaranteed to run immediately.`,
     },
     {
       title: `Which of the following is true about garbage collection in Java?`,
@@ -56,8 +56,8 @@ export default {
       title: `Which of the following can make an object eligible for garbage collection?`,
       subtitle: `Eligibility for Garbage Collection 5`,
       choices: [
-        `Setting the object reference to null`,
-        `Reassigning the object reference to another object`,
+        `A - Setting the object reference to null`,
+        `B - Reassigning the object reference to another object`,
         `Both A and B`,
         `Neither A nor B`,
       ],
